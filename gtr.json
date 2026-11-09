@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/shibisty/gtr/main/schema/gtr.schema.json",
+    "name": "fullstack-bundler",
+    "version": "0.1.0",
+    "description": "Frontend builds for fullstack without Node.js: TypeScript, JSX and CSS through esbuild, hashed files, a manifest, live rebuilds",
+    "license": "MIT",
+    "repository": "github:shibisty/fullstack.go-bundler",
+    "engines": {
+        "go": ">=1.22"
+    },
+    "dependencies": {
+        "github.com/evanw/esbuild": "^0.27.0"
+    },
+    "devDependencies": {
+        "fullstack": "github:shibisty/fullstack.go"
+    },
+    "peerDependencies": {
+        "fullstack": "^0.1"
+    },
+    "scripts": {
+        "test": "go test ./..."
+    }
+}
