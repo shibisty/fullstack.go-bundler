@@ -1,4 +1,4 @@
-// fullstack-bundler: registers the service worker (Options.PWA).
+// @fullstack/bundler: registers the service worker (Options.PWA).
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch((err) => {
     console.warn("fullstack: the service worker did not register:", err);

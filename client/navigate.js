@@ -1,4 +1,4 @@
-// fullstack-bundler page navigation
+// @fullstack/bundler page navigation
 const PREFETCH_TTL = 15000;
 const CACHE_SIZE = 10;
 const prefetched = new Map(); // url → {promise, time}

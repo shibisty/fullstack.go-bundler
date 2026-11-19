@@ -1,4 +1,4 @@
-// fullstack-bundler service worker (Options.PWA). The server puts the build's
+// @fullstack/bundler service worker (Options.PWA). The server puts the build's
 // settings in front of this file: self.__FULLSTACK = {version, precache,
 // publicPath, pack, offline}.
 //

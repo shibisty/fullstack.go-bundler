@@ -179,7 +179,7 @@ func (l *live) tag() string {
 	return `<script type="module" src="` + l.public + `__live.js"></script>`
 }
 
-const liveScript = `// fullstack-bundler live reload (development only)
+const liveScript = `// fullstack/bundler live reload (development only)
 const events = new EventSource(new URL("__live", import.meta.url));
 let boot = null;
 events.addEventListener("hello", (e) => {

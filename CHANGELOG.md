@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+### Changed
+- Renamed from `fullstack-bundler` to `@fullstack/bundler` (gtr ADR-0012): `gtr add @fullstack/bundler`, `import "fullstack/bundler"`; published to the gtr registry. Dependencies on fullstack, passport, orm and migration packages are registry ranges instead of `github:` sources.
+
 ### Added
 - `bundler.Build`: TypeScript, JSX (automatic runtime, Preact by default) and CSS bundled by
   esbuild in the Go process; code splitting, minification, linked source maps, content hashes in

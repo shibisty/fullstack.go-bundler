@@ -1,4 +1,4 @@
-# fullstack-bundler
+# @fullstack/bundler
 
 Frontend builds for [fullstack](https://github.com/shibisty/fullstack.go) without Node.js: TypeScript,
 JSX and CSS are bundled by [esbuild](https://esbuild.github.io) running inside your Go program.
@@ -9,13 +9,13 @@ No `node_modules` toolchain, no separate watcher process.
 ```json
 {
     "dependencies": {
-        "fullstack-bundler": "github:shibisty/fullstack.go-bundler"
+        "@fullstack/bundler": "^0.2"
     }
 }
 ```
 
 ```go
-import "fullstack-bundler" // package bundler
+import "fullstack/bundler" // package bundler
 ```
 
 ## In an application

@@ -1,6 +1,6 @@
 // Package bundler builds the frontend of a fullstack application with
 // esbuild, inside the Go process: TypeScript, JSX (Preact by default) and
-// CSS, without Node.js (gtr package fullstack-bundler).
+// CSS, without Node.js (gtr package @fullstack/bundler).
 //
 //	m, err := bundler.Build(ctx, bundler.Options{
 //	    Entries: []string{"resources/js/app.tsx", "resources/css/app.css"},
